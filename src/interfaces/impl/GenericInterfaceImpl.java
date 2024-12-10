@@ -1,6 +1,5 @@
 package interfaces.impl;
 
-import model.Employee;
 import interfaces.GenericInterface;
 
 public class GenericInterfaceImpl<T> implements GenericInterface<T> {

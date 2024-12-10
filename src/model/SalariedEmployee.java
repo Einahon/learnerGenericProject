@@ -18,10 +18,12 @@ public class SalariedEmployee extends Employee {
 
     @Override
     public String toString() {
-        return "SalariedEmployee{" +
-                "salary=" + salary +
+        return "SalaryEmploee{"+
+                "id=" + getId()+
+                ", name='" + getName()+'\'' +
+                ", salary=" + salary +
                 '}';
     }
-    }
+}
 
 
